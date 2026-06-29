@@ -93,3 +93,21 @@ My solutions and progress logs on overthewire.org security cybersecurity concept
 + did `cat ./-`
 + worked, got password
 + __level done__
+
+
+### level 2 -> level 3
+- `ssh bandit2@bandit.labs.overthewire.org -p 2220`
+- password:
+    * password found in previous level
+* goal is to find the password in a file called `--spaces in this filename--`
+* `ls`
+* found the file
+* the solution from the last level works here:
+    + `cat ./--<TAB>`
+    + autocompletes to `cat ./--spaces\ in\ this\ filename--`
++ found password
++ let's try another way to learn more even though we've beat the level
++ can we do it with the `cat --<TAB>` like google said?:
+    + that brings up i think usage autocomplete `--<parameter>`s
+    + that's not what we want
++ i guess its the preferred and cleanest way just to do `cat./<file>`
