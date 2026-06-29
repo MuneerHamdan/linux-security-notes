@@ -1,5 +1,6 @@
 # Muneer Hamdan overthewiresolutions
 My solutions and progress logs on overthewire.org security cybersecurity concepts
+_these are literally my thoughts as im going through the problems_
 
 
 ## bandit
@@ -111,3 +112,20 @@ My solutions and progress logs on overthewire.org security cybersecurity concept
     + that brings up i think usage autocomplete `--<parameter>`s
     + that's not what we want
 + i guess its the preferred and cleanest way just to do `cat./<file>`
++ __level done__
+
+### level 3 -> level 4
+- so easy
+- `ssh bandit3@bandit.labs.overthewire.org -p 2220`
+- enter password from previous level
+- `ls`
+- found the `inhere` directory
+- `ls inhere`
+- blank output
+- okay lets see all the hidden files:
+    * `ls -al inhere`
+* found `...Hiding-From-You`
+* `cd inhere`
+* `cat .<TAB>` -> `cat ...Hiding-From-You`
+* found password
+* __level done__
