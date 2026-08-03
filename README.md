@@ -1,6 +1,17 @@
-# Muneer Hamdan overthewiresolutions
-My solutions and progress logs on overthewire.org security cybersecurity concepts
-_these are literally my thoughts as im going through the problems_
+# OverTheWire Bandit Notes
+
+Personal learning notes while completing the OverTheWire Bandit wargame.
+
+Topics explored:
+- SSH authentication
+- Linux command-line tools
+- File permissions
+- Hidden files
+- Special filenames
+- Shell behavior
+- Basic security concepts
+
+These notes document my troubleshooting process and commands I used while learning Linux security fundamentals.
 
 
 ## bandit
