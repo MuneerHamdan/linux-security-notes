@@ -129,3 +129,14 @@ _these are literally my thoughts as im going through the problems_
 * `cat .<TAB>` -> `cat ...Hiding-From-You`
 * found password
 * __level done__
+
+### level 4 -> level 5
+- ls
+- cd `inhere`
+- ls
+- `cat ./-file0[0..7]`
+- can prob make a do this with a loop but i just did it manually
+- found on `file07`
+
+### level 5 -> level 6
+- 
